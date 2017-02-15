@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/palette.png</file>
+        <file>img/plain-square.png</file>
+        <file>img/triangle.png</file>
+        <file>img/artistic-brush.png</file>
+        <file>img/del.png</file>
+        <file>img/diamond.png</file>
+        <file>img/plain-circle.png</file>
+        <file>img/185896-200.png</file>
+        <file>img/folder.png</file>
+        <file>img/save.png</file>
+        <file>img/file.png</file>
+        <file>img/delete.png</file>
+        <file>img/paint-palette.png</file>
+        <file>img/turn-left.png</file>
+        <file>img/turn-right.png</file>
+        <file>img/zoom-in (1).png</file>
+        <file>img/zoom-out.png</file>
+        <file>img/line.png</file>
+        <file>img/rectangle.png</file>
+    </qresource>
+</RCC>
