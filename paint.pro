@@ -1,12 +1,10 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2016-11-09T20:55:26
+# Project created by QtCreator 2015-09-24T19:55:44
 #
 #-------------------------------------------------
 
 QT       += core gui
-QTPLUGIN     += qjpeg
-//LIBS +=  qjpeg
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -15,37 +13,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp \
-    paintscene.cpp \
-    figure.cpp \
-    romb.cpp \
-    square.cpp \
-    triangle.cpp \
-    circle.cpp \
-    line.cpp \
-    colorindicator.cpp \
-    colorpalette.cpp \
-    rectangle.cpp \
-    exception.cpp
+        paint.cpp \
+    paintscene.cpp
 
-HEADERS  += mainwindow.h \
-    paintscene.h \
-    figure.h \
-    romb.h \
-    square.h \
-    triangle.h \
-    circle.h \
-    line.h \
-    colorindicator.h \
-    colorpalette.h \
-    rectangle.h \
-    exception.h
+HEADERS  += paint.h \
+    paintscene.h
 
-FORMS    += mainwindow.ui
-
-RESOURCES += \
-    res.qrc
-
-DISTFILES +=
-
-
+FORMS    += paint.ui

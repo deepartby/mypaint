@@ -22,7 +22,9 @@ private:
     // Для рисования используем события мыши
     void mousePressEvent(QGraphicsSceneMouseEvent * event);
     void mouseMoveEvent(QGraphicsSceneMouseEvent *event);
+    int vl;
 
 };
 
 #endif // PAINTSCENE_H
+//special for commit

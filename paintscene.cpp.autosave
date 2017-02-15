@@ -1,14 +1,10 @@
 #include "paintscene.h"
 
 paintScene::paintScene(QObject *parent) : QGraphicsScene(parent)
-{
-
-}
+{}
 
 paintScene::~paintScene()
-{
-
-}
+{}
 
 void paintScene::mousePressEvent(QGraphicsSceneMouseEvent *event)
 {
